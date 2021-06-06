@@ -224,7 +224,7 @@ section.sessao1 .container{
 .wraper-parte1{
     max-width: 600px;
     float: right;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .parte1 h2{
@@ -313,6 +313,102 @@ section.sessao1 .container{
     background-color: #c8c8c8;
 }
 
+section.sessao4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.form h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.form p{
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    padding-right: 10px;
+}
+
+.form form{
+    margin-top: 15px;
+}
+
+.form form input[type=text] {
+    width: 90%;
+    max-width: 480px;
+    margin-top: 5px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid #c8c8c8;
+}
+
+.form form textarea {
+    width: 90%;
+    height: 160px;
+    margin-top: 8px;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid #c8c8c8;
+}
+
+.form form input[type=submit] {
+    background-color: #ff703d;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.map-wraper {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.map-wraper h2 {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map-wraper2 {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.map-wraper3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    border: 5px solid #c8c8c8;
+}
+
 @media screen and (max-width: 830px){
     .chamada1{
         max-width: none;
@@ -391,5 +487,61 @@ section.sessao1 .container{
 
     .sessao2{
         padding: 40px;
+    }
+
+    section.sessao4 .container {
+        text-align: center;
+    }
+
+    .form {
+        float: none;
+        width: 100%;
+    }
+
+    .form p {
+        display: inline-block;
+        float: none;
+    }
+
+    .map-wraper {
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 8%;
+    }
+
+    .map-wraper2 {
+        width: 100%;
+        max-width: none;
+        margin-top: 10px;
+        padding-top: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .map-wraper3 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .parte1{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .parte2{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .sessao2 img{
+        top: 16px;
+        margin-top: 20px;
     }
 }
