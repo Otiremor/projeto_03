@@ -75,10 +75,16 @@ nav.mobile-menu ul li a{
 }
 
 header .logo{
+    position: relative;
+    top: -90px;
     float: left;
-    width: 160px;
-    height: 40px;
-    background-color: #cccccc;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/horizontal_on_white_by_logaster.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 header nav.desktop-menu ul{
@@ -279,8 +285,8 @@ section.sessao1 .container{
     float: left;
     width: 40px;
     height: 40px;
-    position: relative;
-    top: -4px;
+    background-image: url("../images/actor1.png");
+    background-size: 100% 100%;
     border-radius: 20px;
     background-color: #858585;
 }
@@ -407,6 +413,22 @@ section.sessao4{
     top: 0;
     background: #ffffff;
     border: 5px solid #c8c8c8;
+}
+
+footer {
+    padding: 40px 2%;
+    background: #192123;
+    color: #ffffff;
+}
+
+footer p:nth-of-type(1) {
+    float: left;
+    font-size: 14px;
+}
+
+footer p:nth-of-type(2) {
+    float: right;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 830px){
@@ -543,5 +565,18 @@ section.sessao4{
     .sessao2 img{
         top: 16px;
         margin-top: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer p:nth-of-type(1) {
+        float: none;
+    }
+
+    footer p:nth-of-type(2) {
+        float: none;
+        margin-top: 8px;
     }
 }
